@@ -2,6 +2,8 @@
 
 body {
 	background-color: black;
+	background-image: url("../assets/bg1.png");
+	background-size: 100%
 }
 
 #content {
@@ -26,10 +28,6 @@ a:hover {
 .smallSpacer {
 	padding-bottom: 5%
 }
-
-/** {
-  box-sizing: border-box;
-}*/
 
 .lamp {
   pointer-events: none;
@@ -66,7 +64,7 @@ a:hover {
   top: -270px;
   left: -150px;
   border-top: 250px solid transparent;
-  border-bottom: 280px solid rgba(255, 255, 255, .4);
+  border-bottom: 280px solid rgba(255, 255, 255, .2);
   border-left: 160px solid transparent;
   border-right: 160px solid transparent;
   z-index: 1;
