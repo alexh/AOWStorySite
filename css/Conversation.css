@@ -1,0 +1,10 @@
+
+#question {
+	float:left;
+	padding-left: 12%
+}
+
+#response {
+	float: right;
+	padding-right: 12%
+}
