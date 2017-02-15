@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     console.log( "ready!" );
-    $( "#contentWrapper" ).load( "End_final.html");
+    $( "#contentWrapper" ).load( "slide1.html");
 });
 
 

@@ -26,3 +26,62 @@ a:hover {
 .smallSpacer {
 	padding-bottom: 5%
 }
+
+/** {
+  box-sizing: border-box;
+}*/
+
+.lamp {
+  pointer-events: none;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 60px;
+  top: 20px;
+  left: 50%;
+  border-top: 30px solid #212121;
+  border-bottom: 30px solid transparent;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.lamp:before {
+  pointer-events: none;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  background: #212121;
+  top: -50px;
+  left: 30px;
+}
+
+.lamp:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  top: -270px;
+  left: -150px;
+  border-top: 250px solid transparent;
+  border-bottom: 280px solid rgba(255, 255, 255, .4);
+  border-left: 160px solid transparent;
+  border-right: 160px solid transparent;
+  z-index: 1;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+.swing {
+  animation: swing 1.5s infinite alternate ease-in-out;
+  transform-origin: 30px -20px;
+}
