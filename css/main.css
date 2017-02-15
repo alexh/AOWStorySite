@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
 body {
 	background-color: black;
 }
 
 #content {
 	color: white;
+	font-family: 'VT323', monospace;
+	font-size: 150%
 }
 
 a {
+	color: #cc0000;
+	text-decoration: none;
+
+}
+
+a:hover {
 	color: red;
+}
+
+.Spacer {
+	padding-bottom: 10%
 }

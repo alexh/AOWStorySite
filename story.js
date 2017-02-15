@@ -5,5 +5,8 @@ $( document ).ready(function() {
 
 
 function Switch(page){
-	$( "#contentWrapper" ).load( page + ".html");
+	$( "#contentWrapper" ).hide();
+	$( "#contentWrapper" ).load( page + ".html", function(){
+		$( "#contentWrapper" ).fadeIn(200);
+	});
 }
