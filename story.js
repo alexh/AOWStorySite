@@ -3,7 +3,6 @@ $( document ).ready(function() {
     $( "#contentWrapper" ).load( "slide1.html");
 });
 
-
 function Switch(page){
 	$( "#contentWrapper" ).hide();
 	$( "#contentWrapper" ).load( page + ".html", function(){
