@@ -38,21 +38,26 @@ function Switch(page){
 			var g = 35;
 			var b = 40;
 			$(".blended").css("background-color", "rgb(" + r+ "," + g+","+ b+ ")");
+			$(".blended").css("background-image", "url('./assets/bg2.png')");
 			$("#onSwitch").removeAttr('checked');
 			$("#offSwitch").attr('checked', 'checked');
+		}
+		if (page == "Q5_control"){
+			$(".blended").css("background-image", "url('./assets/bg4.png')");
 		}
 		if (page == "Q6_violence"){
 			var r = 20;
 			var g = 35;
 			var b = 30;
 			$(".blended").css("background-color", "rgb(" + r+ "," + g+","+ b+ ")");
+			$(".blended").css("background-image", "url('./assets/bg5.png')");
 		}
 		if (page == "End_Final"){
 			var r = 20;
 			var g = 35;
 			var b = 30;
 			$(".blended").hide();
-			$("body").css("background-image", "url('../assets/fire.gif')");
+			$(".blended").css("background-image", "url('./assets/fire.gif')");
 		}
 	});
 }
