@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     console.log( "ready!" );
-    $( "#contentWrapper" ).load( "Q9_decide.html");
+    $( "#contentWrapper" ).load( "slide1.html");
 });
 
 
