@@ -28,15 +28,15 @@ function Switch(page){
 			$("#offSwitch").removeAttr('checked');
 		}
 		if (page == "slide1"){
-			r = 30;
-			g = 35;
-			b = 40;
+			var r = 70;
+			var g = 75;
+			var b = 80;
 			$(".blended").css("background-color", "rgb(" + r+ "," + g+","+ b+ ")");
 		}
 		if (page == "Restart"){
-			var r = 30;
-			var g = 35;
-			var b = 40;
+			r = 30;
+			g = 35;
+			b = 40;
 			$(".blended").css("background-color", "rgb(" + r+ "," + g+","+ b+ ")");
 			$(".blended").css("background-image", "url('./assets/bg2.png')");
 			$("#onSwitch").removeAttr('checked');
@@ -46,17 +46,17 @@ function Switch(page){
 			$(".blended").css("background-image", "url('./assets/bg4.png')");
 		}
 		if (page == "Q6_violence"){
-			var r = 20;
-			var g = 35;
-			var b = 30;
+			var r = 50;
+			var g = 55;
+			var b = 60;
 			$(".blended").css("background-color", "rgb(" + r+ "," + g+","+ b+ ")");
 			$(".blended").css("background-image", "url('./assets/bg5.png')");
 		}
 		if (page == "End_Final"){
-			var r = 20;
-			var g = 35;
-			var b = 30;
-			$(".blended").hide();
+			var r = 90;
+			var g = 90;
+			var b = 90;
+			$(".blended").css("background-color", "rgb(" + r+ "," + g+","+ b+ ")");
 			$(".blended").css("background-image", "url('./assets/fire.gif')");
 		}
 	});
