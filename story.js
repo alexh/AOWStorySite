@@ -52,6 +52,12 @@ function Switch(page){
 			$(".blended").css("background-color", "rgb(" + r+ "," + g+","+ b+ ")");
 			$(".blended").css("background-image", "url('./assets/bg5.png')");
 		}
+		if (page == "Q8_know1"){
+			var r = 50;
+			var g = 55;
+			var b = 60;
+			$(".blended").css("background-color", "rgb(" + r+ "," + g+","+ b+ ")");
+		}
 		if (page == "End_Final"){
 			var r = 90;
 			var g = 90;
