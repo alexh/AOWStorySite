@@ -8,7 +8,7 @@ var r = 30;
 var g = 35;
 var b = 40;
 function Switch(page){
-	$(".blended").css("background-color", "rgb(" + r+ "," + g+","+ b+ ")");
+	// $(".blended").css("background-color", "rgb(" + r+ "," + g+","+ b+ ")");
 	$( "#contentWrapper" ).hide();
 	$( "#contentWrapper" ).load( page + ".html", function(){
 		$( "#contentWrapper" ).fadeIn(200);
